@@ -2,7 +2,7 @@
 $servername = "192.168.56.101";
 $username = "root";
 $password = "root123";
-$database = "bnkms"
+$database = "bnkms";
 $port = "30036";
 
 // Create connection
