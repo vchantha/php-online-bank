@@ -5,9 +5,13 @@
     
     <link rel="stylesheet" type="text/css" href="css/view_customer_by_acc_no.css" />
     
-      <?php include 'header.php' ?></head>
+      <?php 
+error_reporting(E_ERROR | E_PARSE);
+include 'header.php' ?></head>
 <body>
-	<?php include 'staff_profile_header.php' ?>
+	<?php 
+error_reporting(E_ERROR | E_PARSE);
+include 'staff_profile_header.php' ?>
     
     <div class="view_cust_byac_container_outer">
     <form method="POST">
@@ -18,6 +22,7 @@
     </div>
     
     <?php 
+error_reporting(E_ERROR | E_PARSE);
 
     if(isset($_POST['submit_view'])){
         $cust_ac=$_POST['account_no'];

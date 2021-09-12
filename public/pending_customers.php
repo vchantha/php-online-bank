@@ -4,7 +4,9 @@
 <link rel="stylesheet" type="text/css" href="css/pending_customers.css"/>
 <body>
 
-<?php  
+<?php 
+error_reporting(E_ERROR | E_PARSE);
+ 
 	//session_start();
 	include 'header.php' ;
 	include 'staff_profile_header.php' ;

@@ -5,6 +5,7 @@
 <body>
 
 <?php  
+error_reporting(E_ERROR | E_PARSE);
 
 	include 'header.php' ;
 	include 'staff_profile_header.php' ;

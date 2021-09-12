@@ -3,8 +3,12 @@
 <link rel="stylesheet" type="text/css" href="css/delete_customer.css">
 </head>
 <body>
-    <?php include 'header.php';  ?>
-    <?php include 'staff_profile_header.php' ?> 
+    <?php 
+error_reporting(E_ERROR | E_PARSE);
+include 'header.php';  ?>
+    <?php
+error_reporting(E_ERROR | E_PARSE);
+ include 'staff_profile_header.php' ?> 
     <div class ="delete_customer_container">
     <div class ="delete_customer_container_heading">
     <h3>Delete Customer</h3>
