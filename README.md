@@ -6,6 +6,5 @@ PHP - Online-BankingPHP
 ### database 
  + Database:  
              - bnkms
-             
  + Connectivity: 
              - db_connect.php
