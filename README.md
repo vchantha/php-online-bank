@@ -7,4 +7,5 @@ PHP - Online-BankingPHP
  + Database:  
              - bnkms
  + Connectivity:   db_connect.php
- + User/Password: ID: 210001 / password
+ + User/Password: 
+																		ID: 210001/password
