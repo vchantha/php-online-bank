@@ -1,0 +1,26 @@
+version: "3.9"
+services:
+
+  web:
+    build: './public/'
+    depends_on:
+      - db 
+    ports:
+      - 2000:80
+    volumes:
+      - ./public/:/var/www/html/
+  db:
+    build: './db/'
+    ports:
+      - 30036:3306
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./db/bnkms.sql:/docker-entrypoint-initdb.d/bnkms.sql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=root123
+      - MYSQL_DATABASE=bnkms
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin
+volumes:
+  db_data:
