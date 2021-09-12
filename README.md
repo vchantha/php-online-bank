@@ -4,5 +4,5 @@ PHP - Online-BankingPHP
 ## Prequisit
 
 ### database 
- + Database name 
-     bnkms
+ + Database:
+ bnkms
